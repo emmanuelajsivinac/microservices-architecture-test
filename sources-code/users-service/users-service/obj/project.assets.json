@@ -460,19 +460,19 @@
     ]
   },
   "packageFolders": {
-    "/home/emmanuel-ajsivinac/.nuget/packages/": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/emmanuel-ajsivinac/Development/Kubernetes/microservices-architecture-test/sources-code/users-service/users-service/users-service.csproj",
+      "projectUniqueName": "/workspaces/microservices-architecture-test/sources-code/users-service/users-service/users-service.csproj",
       "projectName": "users-service",
-      "projectPath": "/home/emmanuel-ajsivinac/Development/Kubernetes/microservices-architecture-test/sources-code/users-service/users-service/users-service.csproj",
-      "packagesPath": "/home/emmanuel-ajsivinac/.nuget/packages/",
-      "outputPath": "/home/emmanuel-ajsivinac/Development/Kubernetes/microservices-architecture-test/sources-code/users-service/users-service/obj/",
+      "projectPath": "/workspaces/microservices-architecture-test/sources-code/users-service/users-service/users-service.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/microservices-architecture-test/sources-code/users-service/users-service/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/emmanuel-ajsivinac/.nuget/NuGet/NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -490,6 +490,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -524,7 +529,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
